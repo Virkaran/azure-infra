@@ -54,3 +54,10 @@ variable "kubernetes_version" {
   type        = string
   default     = ""
 }
+
+variable "key_vault_sku" {
+  description = "Key Vault SKU"
+  type        = string
+  default     = "standard"
+}
+
