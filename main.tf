@@ -30,7 +30,7 @@ resource "azurerm_key_vault_access_policy" "sp_policy" {
   object_id    = data.azurerm_client_config.current.object_id
 
   secret_permissions = [
-    "Get" "List" "Set" "Delete" "Recover" "Backup" "Restore" "Purge"
+    "Get","List","Set","Delete","Recover","Backup","Restore","Purge"
   ]
 }
 
